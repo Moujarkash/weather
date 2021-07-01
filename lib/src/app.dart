@@ -19,7 +19,8 @@ class App extends StatelessWidget {
       ),
       builder: (context, widget) {
         if (widget != null) {
-          return SafeArea(child: widget);
+          // return SafeArea(child: widget);
+          return widget;
         }
 
         return Container();  

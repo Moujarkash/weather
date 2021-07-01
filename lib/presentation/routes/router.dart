@@ -1,11 +1,11 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:weather/presentation/pages/weather_details_page.dart';
-import 'package:weather/presentation/pages/weather_page.dart';
+import 'package:weather/presentation/pages/forecast_details_page.dart';
+import 'package:weather/presentation/pages/forecast_page.dart';
 
-@MaterialAutoRouter(  
+@CupertinoAutoRouter(  
   routes: <AutoRoute>[  
-    AutoRoute(page: WeatherPage, initial: true),  
-    AutoRoute(page: WeatherDetailsPage),  
+    AutoRoute(page: ForecastPage, initial: true),  
+    AutoRoute(page: ForecastDetailsPage),  
   ],  
 )  
 class $AppRouter {}  
